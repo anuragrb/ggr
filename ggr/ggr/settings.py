@@ -82,6 +82,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
+LOGGING = {
+    'version': 1,
+}
+
 S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 STATIC_URL = S3_URL
 STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
