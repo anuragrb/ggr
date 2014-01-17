@@ -130,14 +130,14 @@ html, body {
 }
 
 .wrapper {
-    min-height: 100%;
+    min-height: 75%;
     height: auto !important;
     background: #59AD3E;
     height: 100%;
-    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+    margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
-    height:155px;
+    height:40px;
     background: #59AD3E;
     height: auto; /* .push must be the same height as .footer */
 }
