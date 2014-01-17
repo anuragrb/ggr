@@ -21,6 +21,11 @@ padding-top: 125px;
 text-align: center;
 }
 
+#image {
+
+    color:  #F5F5DC;
+}
+
 p{
 font-size: 13px;
 color: #656565;
@@ -127,10 +132,12 @@ html, body {
 .wrapper {
     min-height: 100%;
     height: auto !important;
+    background: #59AD3E;
     height: 100%;
     margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
+    height:155px;
     background: #59AD3E;
     height: auto; /* .push must be the same height as .footer */
 }
