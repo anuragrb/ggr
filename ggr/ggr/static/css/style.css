@@ -7,7 +7,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 body{
 margin:0;
 padding:0;
-background:#d9d9d9 url(../images/bg.gif) center top repeat-x;
+background: #F5F5DC;
 font-family:"Helvetica Neue",Helvetica, Arial;
 }
 
@@ -16,7 +16,7 @@ margin-right: 20px;
 }
 
 #content{
-background: url(../images/mid_bg.jpg) center top no-repeat;
+background:#59AD3E;
 padding-top: 125px;
 text-align: center;
 }
@@ -29,7 +29,7 @@ margin-bottom: 10px;
 }
 
 a{
-color: #2a6888;
+color: #59AD3E;
 text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ text-decoration: underline;
 }
 
 h1{
-color: #fff;
+color:  #F5F5DC;
 font-size: 36px;
 margin-bottom: 15px;
 }
@@ -46,14 +46,14 @@ margin-bottom: 15px;
 h3{
 font-family: Georgia, helvetica, arial;
 font-size: 16px;
-color: #fff;
+color:  #F5F5DC;
 font-style: italic;
 margin-bottom: 35px;
 }
 
 h2{
 font-size: 22px;
-color: #2a6888;
+color:  #59AD3E;
 margin-bottom: 8px;
 }
 
@@ -61,12 +61,12 @@ margin-bottom: 8px;
 width: 884px;
 padding-bottom: 30px;
 margin: 0 auto;
-background: url(../images/shadow.png) left bottom no-repeat;
+background: #59AD3E url(../images/shadow.png) left bottom no-repeat;
 }
 
 .mcontent{
 min-height: 153px;
-background:#ebebeb url(../images/main.gif) left top repeat-x;
+background:#59AD3E url(../images/main.gif) left top repeat-x;
 width: 698px;
 border-left: 1px solid #f7f7f7;
 margin: 0 auto;
